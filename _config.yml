@@ -1,1 +1,8 @@
 theme: jekyll-theme-cayman
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+sass:
+    load_paths:
+        - _sass
+        -  C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/bootstrap-4.3.1

@@ -1,24 +1,23 @@
 --- 
 layout: default 
+title: Team 2 Wireless Power Monitor
 ---
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A website to host our data logging system</title>
-    <meta name="description" content="A simple HTML5 Template for new projects.">
-    <meta name="Jordan Green">
-
-</head>
 
 <body>
-
-    <h1>Team 02 Wireless Power Monitor</h1>
-
-    <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1498560/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
-
+    <div class="container">
+    <div class="row">
+        <div class="col-sm">
+            <h2>Peak Voltage</h2>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1498560/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </div>
+        <div class="col-sm">
+            <h2>RMS Current</h2>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1498560/charts/2?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </div>
+        <div class="col-sm">
+            <h2>Power</h2>
+            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/1498560/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&type=line&update=15"></iframe>
+        </div>
+    </div>
+    </div>
 </body>
-
-</html>
